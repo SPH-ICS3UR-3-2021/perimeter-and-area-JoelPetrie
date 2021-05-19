@@ -23,7 +23,7 @@ public class Main {
         double length = in.nextDouble();
         System.out.println("What's the width of the rectangle?");
         double width = in.nextDouble();
-        System.out.println("The preimeter of the rectangle is " + width * 2 + length * 2);
+        System.out.println("The preimeter of the rectangle is " + 2*(width + length));
         } else if (option == 2){System.out.println("What's the length of the rectangle?");
         double length = in.nextDouble();
         System.out.println("What's the width of the rectangle?");
